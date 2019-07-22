@@ -5,7 +5,34 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>396B1D9D-0843-46CD-B8F3-A3D32502CA54</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>396B1D9D-0843-46CD-B8F3-A3D32502CA54.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Slacky-ecfkutvqapuczvaxcljxipliecqc</string>
+			<key>timeStartedRecording</key>
+			<real>585311676.368469</real>
+			<key>timeStoppedRecording</key>
+			<real>585311679.66435206</real>
+			<key>title</key>
+			<string>Build target Slacky</string>
+			<key>uniqueIdentifier</key>
+			<string>396B1D9D-0843-46CD-B8F3-A3D32502CA54</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

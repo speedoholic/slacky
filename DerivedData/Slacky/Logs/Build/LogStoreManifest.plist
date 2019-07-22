@@ -5,6 +5,39 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>A17E75E7-C9DF-46A1-923F-6B2EDE2B32B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A17E75E7-C9DF-46A1-923F-6B2EDE2B32B0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Slacky project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Slacky</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Slacky</string>
+			<key>timeStartedRecording</key>
+			<real>585311676.07931006</real>
+			<key>timeStoppedRecording</key>
+			<real>585311679.80742002</real>
+			<key>title</key>
+			<string>Build Slacky</string>
+			<key>uniqueIdentifier</key>
+			<string>A17E75E7-C9DF-46A1-923F-6B2EDE2B32B0</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

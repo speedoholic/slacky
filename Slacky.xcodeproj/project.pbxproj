@@ -7,17 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554912F422E2FA1600EC6A4A /* wifi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 554912F222E2FA1600EC6A4A /* wifi.xcdatamodeld */; };
+		554912F622E2FF0800EC6A4A /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554912F522E2FF0800EC6A4A /* DataTableViewController.swift */; };
+		554912F822E300B200EC6A4A /* SSID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554912F722E300B100EC6A4A /* SSID.swift */; };
+		554912FA22E300FA00EC6A4A /* NetworkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554912F922E300FA00EC6A4A /* NetworkInfo.swift */; };
+		554912FC22E313C800EC6A4A /* UIAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554912FB22E313C800EC6A4A /* UIAlertHelper.swift */; };
+		554912FE22E315F400EC6A4A /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554912FD22E315F400EC6A4A /* TokenManager.swift */; };
+		5549132322E31EC700EC6A4A /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5549132122E31EC700EC6A4A /* DataTableViewCell.swift */; };
+		5549132422E31EC700EC6A4A /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5549132222E31EC700EC6A4A /* DataTableViewCell.xib */; };
 		55C4B32822E2EE45006C4F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4B32722E2EE45006C4F16 /* AppDelegate.swift */; };
-		55C4B32A22E2EE45006C4F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4B32922E2EE45006C4F16 /* ViewController.swift */; };
+		55C4B32A22E2EE45006C4F16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4B32922E2EE45006C4F16 /* HomeViewController.swift */; };
 		55C4B32D22E2EE45006C4F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C4B32B22E2EE45006C4F16 /* Main.storyboard */; };
 		55C4B32F22E2EE47006C4F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C4B32E22E2EE47006C4F16 /* Assets.xcassets */; };
 		55C4B33222E2EE47006C4F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C4B33022E2EE47006C4F16 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		554912F122E2F92800EC6A4A /* Slacky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slacky.entitlements; sourceTree = "<group>"; };
+		554912F322E2FA1600EC6A4A /* wifi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wifi.xcdatamodel; sourceTree = "<group>"; };
+		554912F522E2FF0800EC6A4A /* DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		554912F722E300B100EC6A4A /* SSID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSID.swift; sourceTree = "<group>"; };
+		554912F922E300FA00EC6A4A /* NetworkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfo.swift; sourceTree = "<group>"; };
+		554912FB22E313C800EC6A4A /* UIAlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertHelper.swift; sourceTree = "<group>"; };
+		554912FD22E315F400EC6A4A /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		5549132122E31EC700EC6A4A /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		5549132222E31EC700EC6A4A /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 		55C4B32422E2EE45006C4F16 /* Slacky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slacky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C4B32722E2EE45006C4F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55C4B32922E2EE45006C4F16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55C4B32922E2EE45006C4F16 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		55C4B32C22E2EE45006C4F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55C4B32E22E2EE47006C4F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C4B33122E2EE47006C4F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +52,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		554912FF22E318A100EC6A4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55C4B32922E2EE45006C4F16 /* HomeViewController.swift */,
+				554912F522E2FF0800EC6A4A /* DataTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5549132522E31ECB00EC6A4A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5549132122E31EC700EC6A4A /* DataTableViewCell.swift */,
+				5549132222E31EC700EC6A4A /* DataTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		55C4B31B22E2EE45006C4F16 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +89,18 @@
 		55C4B32622E2EE45006C4F16 /* Slacky */ = {
 			isa = PBXGroup;
 			children = (
+				554912F122E2F92800EC6A4A /* Slacky.entitlements */,
 				55C4B32722E2EE45006C4F16 /* AppDelegate.swift */,
-				55C4B32922E2EE45006C4F16 /* ViewController.swift */,
+				554912FF22E318A100EC6A4A /* Controllers */,
+				5549132522E31ECB00EC6A4A /* TableViewCells */,
+				554912FB22E313C800EC6A4A /* UIAlertHelper.swift */,
+				554912FD22E315F400EC6A4A /* TokenManager.swift */,
+				554912F922E300FA00EC6A4A /* NetworkInfo.swift */,
+				554912F722E300B100EC6A4A /* SSID.swift */,
 				55C4B32B22E2EE45006C4F16 /* Main.storyboard */,
-				55C4B32E22E2EE47006C4F16 /* Assets.xcassets */,
 				55C4B33022E2EE47006C4F16 /* LaunchScreen.storyboard */,
+				55C4B32E22E2EE47006C4F16 /* Assets.xcassets */,
+				554912F222E2FA1600EC6A4A /* wifi.xcdatamodeld */,
 				55C4B33322E2EE47006C4F16 /* Info.plist */,
 			);
 			path = Slacky;
@@ -96,6 +138,11 @@
 				TargetAttributes = {
 					55C4B32322E2EE45006C4F16 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +172,7 @@
 				55C4B33222E2EE47006C4F16 /* LaunchScreen.storyboard in Resources */,
 				55C4B32F22E2EE47006C4F16 /* Assets.xcassets in Resources */,
 				55C4B32D22E2EE45006C4F16 /* Main.storyboard in Resources */,
+				5549132422E31EC700EC6A4A /* DataTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C4B32A22E2EE45006C4F16 /* ViewController.swift in Sources */,
+				55C4B32A22E2EE45006C4F16 /* HomeViewController.swift in Sources */,
+				554912FE22E315F400EC6A4A /* TokenManager.swift in Sources */,
+				554912F622E2FF0800EC6A4A /* DataTableViewController.swift in Sources */,
+				554912F422E2FA1600EC6A4A /* wifi.xcdatamodeld in Sources */,
+				5549132322E31EC700EC6A4A /* DataTableViewCell.swift in Sources */,
 				55C4B32822E2EE45006C4F16 /* AppDelegate.swift in Sources */,
+				554912FC22E313C800EC6A4A /* UIAlertHelper.swift in Sources */,
+				554912FA22E300FA00EC6A4A /* NetworkInfo.swift in Sources */,
+				554912F822E300B200EC6A4A /* SSID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +337,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Slacky/Slacky.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K63S3884G5;
 				INFOPLIST_FILE = Slacky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,9 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Slacky/Slacky.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K63S3884G5;
 				INFOPLIST_FILE = Slacky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +395,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		554912F222E2FA1600EC6A4A /* wifi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				554912F322E2FA1600EC6A4A /* wifi.xcdatamodel */,
+			);
+			currentVersion = 554912F322E2FA1600EC6A4A /* wifi.xcdatamodel */;
+			path = wifi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 55C4B31C22E2EE45006C4F16 /* Project object */;
 }

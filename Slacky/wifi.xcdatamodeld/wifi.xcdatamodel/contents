@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18G71a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SlackStatus" representedClassName="SlackStatus" syncable="YES" codeGenerationType="class">
+        <attribute name="emoji" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WiFi" representedClassName="WiFi" syncable="YES" codeGenerationType="class">
+        <attribute name="bssid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emoji" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ssid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="WiFi" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="SlackStatus" positionX="-54" positionY="9" width="128" height="90"/>
+    </elements>
+</model>
